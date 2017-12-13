@@ -4,15 +4,19 @@
     <p>
       To get started, edit files in <code>{{ path }}</code> and save.
     </p>
+    
+    <thing></thing>
   </div>
 </template>
 
 <script>
 import Counter from '../components/Counter.vue'
+import Thing from '../components/thing'
 
 export default {
   components: {
-    Counter
+    Counter,
+    Thing
   },
 
   data () {

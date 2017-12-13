@@ -1,9 +1,6 @@
-import Vue from 'vue'
-
-Vue.component('functional', {
-  functional: true,
-  render (h) {
+export default {
+  render(createElement) {
     console.log('thing')
-    return h('div', 'hi')
+    return createElement('h2', 'ksbkdjksdb')
   }
-})
+}
